@@ -1,0 +1,43 @@
+﻿@model UserManagement.EntityLayer.DataEntity.tblLogin
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <form>
+        <h2>Login</h2>
+        @Html.ValidationSummary(true)
+        <div>
+            <div> Email:</div>
+            <div>
+                @Html.EditorFor(model => model.Username)
+                <span>@Html.ValidationMessageFor(model => model.Username, "", new { @class = "alert-danger" })</span>
+            </div>
+
+        </div>
+        <div>
+            <div>
+                Password:
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.Password)
+                <div>
+                    <span>@Html.ValidationMessageFor(model => model.Password, "", new { @class = "alert-danger" })</span>
+
+                </div>
+            </div>
+        </div>
+                    <div>
+                        <input type="submit" value="Login" />
+                    </div>
+</form>
+
+}
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

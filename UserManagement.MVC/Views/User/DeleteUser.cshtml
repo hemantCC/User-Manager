@@ -1,0 +1,37 @@
+﻿@model UserManagement.EntityLayer.DataEntity.tblUserDetail
+@{
+    ViewBag.Title = "DeleteUser";
+}
+
+<h2>Are You Sure You Want to Delete this User ?</h2>
+
+@using (Html.BeginForm("ConfirmDelete", "User", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.Id)
+    <table>
+        <tr>
+            <th>Name: </th>
+            <td>@Html.DisplayNameFor(model => model.Name)</td>
+        </tr>
+        <tr>
+            <th>Email: </th>
+            <td>@Html.DisplayNameFor(model => model.Email)</td>
+        </tr>
+        <tr>
+            <th>Phone: </th>
+            <td>@Html.DisplayNameFor(model => model.Phone)</td>
+        </tr>
+        <tr>
+            <th>Birthdate: </th>
+            <td>@Html.DisplayNameFor(model => model.Birthdate)</td>
+        </tr>
+        <tr>
+            <th>Gender: </th>
+            <td>@Html.DisplayNameFor(model => model.Gender)</td>
+        </tr>
+    </table>
+
+    <div>
+        <input type="submit" value="Delete" class="btn btn-danger"/>
+    </div>
+}

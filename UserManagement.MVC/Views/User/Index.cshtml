@@ -1,0 +1,40 @@
+﻿@model IEnumerable<UserManagement.EntityLayer.DataEntity.tblUserDetail>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="text-center">User List</h2>
+<div class="">
+    <a href="@Url.Action("AddOrEditUser", "User")" class="btn btn-success m-4"><i class="fa fa-plus"></i>  Add User</a>
+</div>
+
+<table class="table table-striped table-bordered">
+    <thead> 
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Birthdate</th>
+            <th>Gender</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            @Html.HiddenFor(modelItem => user.Id)
+            <tr>
+                <td>@Html.DisplayFor(modelItem => user.Name)</td>
+                <td>@Html.DisplayFor(modelItem => user.Email)</td>
+                <td>@Html.DisplayFor(modelItem => user.Phone)</td>
+                <td>@Html.DisplayFor(modelItem => user.Birthdate)</td>
+                <td>@Html.DisplayFor(modelItem => user.Gender)</td>
+                <td>
+                    <a href="@Url.Action("AddOrEditUser", "User",new { Id = user.Id })" class="btn btn-default "><i class="fa fa-pencil"></i>  Edit</a>
+                    <a href="@Url.Action("DeleteUser", "User",new { Id = user.Id })" class="btn btn-danger ml-2"><i class="fa fa-trash"></i>  Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

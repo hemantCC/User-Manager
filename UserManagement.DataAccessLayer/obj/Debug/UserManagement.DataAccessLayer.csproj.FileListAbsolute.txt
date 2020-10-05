@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\UserManagement.DataAccessLayer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\UserManagement.DataAccessLayer.pdb
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\obj\Debug\UserManagement.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\obj\Debug\UserManagement.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\obj\Debug\UserManagement.DataAccessLayer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\obj\Debug\UserManagement.DataAccessLayer.pdb
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\UserManagement.EntityLayer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\UserManagement.EntityLayer.pdb
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\UserManagement.EntityLayer.dll.config
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\obj\Debug\UserManagement.DataAccessLayer.csproj.CopyComplete
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\UserManagement.DataAccessLayer.dll.config
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml

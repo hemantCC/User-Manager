@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.BusinessLayer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.BusinessLayer.pdb
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\obj\Debug\UserManagement.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\obj\Debug\UserManagement.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\obj\Debug\UserManagement.BusinessLayer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\obj\Debug\UserManagement.BusinessLayer.pdb
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.DataAccessLayer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.EntityLayer.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.DataAccessLayer.pdb
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.EntityLayer.pdb
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.EntityLayer.dll.config
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\obj\Debug\UserManagement.BusinessLayer.csproj.CopyComplete
+C:\Users\DELL\Desktop\CRUDAssignment\UserManagement.BusinessLayer\bin\Debug\UserManagement.DataAccessLayer.dll.config
